@@ -6,6 +6,15 @@ __pycache__/
 .DS_Store
 
 # Produced datasets
+ipynb/final-data/02.tables/*.qza
+ipynb/final-data/02.tables/matched*
+ipynb/final-data/03*
+ipynb/final-data/04*
+ipynb/final-data/05*
+ipynb/final-data/06*
+ipynb/final-data/07*
+ipynb/final-data/08*
+ipynb/output/*
 
 # C extensions
 *.so

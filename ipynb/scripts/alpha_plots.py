@@ -494,8 +494,7 @@ def _wrap_striped_legend_model(figl):
     axl1.errorbar(x = [0.30], y=0, xerr=0.025, marker='v', capsize=3, color='#252525', markersize=5)
     axl1.text(x=0.1, y=2+0.25, ha='left', va='top', size=8,
                 s=('Model 1: Adjusted for difference in depth, extraction '
-                   'plate,and after travel outside North America\n         '
-                   '      or Europe'))
+                   'plate,and after travel outside North America or Europe'))
     axl1.text(x=0.1, y=0.8, ha='left', va='center', size=8,
             s=('Model 2: Model 1 plus adjustment for age, sex, and vegetarian'
                ' diet'))

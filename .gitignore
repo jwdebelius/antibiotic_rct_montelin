@@ -9,6 +9,8 @@ __pycache__/
 ipynb/final-data/
 ipynb/data/a
 ipynb/output/*
+ipynb/*-Copy*.ipynb
+ipynb/Untit*
 
 # C extensions
 *.so

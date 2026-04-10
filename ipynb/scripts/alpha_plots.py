@@ -532,7 +532,8 @@ def plot_alpha_curve_row(figm1, metric, sub_data, label='A', line_kws=None):
     gsm11 = figm11.add_gridspec(5, 13)
     
     ylabel = \
-        '\n'.join([clean_metrics.get(metric, metric.title()), '(% baseline)'])
+        '\n'.join([clean_metrics.get(metric, metric.title()), 
+                   '(% $\\Delta_{baseline}$)']) 
              
 
     # Sets up and plots the axes

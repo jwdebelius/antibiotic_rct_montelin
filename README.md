@@ -51,29 +51,58 @@ Figure 3 requires teh use of q2-empress, which can be installed in an earlier QI
         * `output/figures/figure_s8_beta_traces.png`
         * `output/figures/figure_s8_beta_traces.pdf`
 	- Figure S9. Change in beta diversity following antibiotic treatment by period.
-        - `output/figures/figure_s9_beta_boxes.png`
-        - `output/figures/figure_s9_beta_boxes.pdf`
+        * `output/figures/figure_s9_beta_boxes.png`
+        * `output/figures/figure_s9_beta_boxes.pdf`
 	- Figure S10. Effect of antibiotic treatment and time since intervention on beta diversity.
-        - `output/figures/figure_s10_beta_forest.png`
-        - `output/figures/figure_s10_beta_forest.pdf`
+        * `output/figures/figure_s10_beta_forest.png`
+        * `output/figures/figure_s10_beta_forest.pdf`
 	- Table S4. Post-hoc comparisons of beta diversity recovery after antibiotic treatment.
-        - `output/tables/table_s4_beta_posthoc.tsv`
+        * `output/tables/table_s4_beta_posthoc.tsv`
 * **I.Figure2.ipynb**<br>Main text figure 2 with alpha diveristy, beta diveristy
 	- Figure 2
-        - `output/figures/figure2.png`
-        - `output/figures/figure2.pdf`
+        * `output/figures/figure2.png`
+        * `output/figures/figure2.pdf`
 * **J.Targeted.ipynb**<br>Targeted taxonomic diversity
 	- Table S5. Targeted differential abundance results for organisms of interest.
+        * `output/tables/table_s5_targeted_da.tsv` 
 * **K.L.ANCOM-BC.ipynb**<br>Differential Abunandance
 	- Figure 3. (*This requires Empress for tree generation and Illustrator for figure assumby*)
-        - `output/figures/Figure_3_ancom_bc_rough.pdf`
-        - To accompany this, the notebook generates `final-data/07.ancom-bc/emperor_meta.tsv` which is then processed with the tree through the Empress plugin. Empress screenshots are filled in the boxes on the rough data for the final figure.
+        * `output/figures/Figure_3_ancom_bc_rough.pdf`
+        * To accompany this, the notebook generates `final-data/07.ancom-bc/emperor_meta.tsv` which is then processed with the tree through the Empress plugin. Empress screenshots are filled in the boxes on the rough data for the final figure.
 	- Figure S11. Forest plot of rate of recovery of species with a statistically significant difference in ANCOM-BC.
         -  
 	- Table S6. Untargeted differential abundance of species recovery following antibiotic treatment
-    - 
+        * `output/tables/table_s6_ancom_bc_recovery.tsv` 
 * **L.AMR.ipynb**<br>AMR carraige
 	- Figure S12. Portion of reads mapped to antimicrobial resistance genes.
+        * `output/figures/figure_s12_amr_trace.png`
+        * `output/figures/figure_s12_amr_trace.pdf`
 	- Figure S13. Relative risk of carrying AMR pathways following treatment.
+        * `output/figures/figures_s13_amrpath_gee.png`
+        * `output/figures/figures_s13_amrpath_gee.pdf` 
     - Table S7. Differentially prevalent antimicrobial resistance pathways across recovery periods
+        * `output/tables/table_s4_amr_gee.xlsx`
 
+# Data
+
+```
+data
+├── metadata
+    ├── all_sample_meta.tsv
+    ├── analysis_sample_meta.tsv
+    ├── codebook.txt
+    └── ena_ids.txt
+    
+├── Stag_Output
+    ├── amr_table.tsv
+    ├── gtdb_genome.biom
+    ├── gtdb_species.biom
+    └── matched_tree_gtdb.qza
+```
+
+The metadata folder contains two files with all the metadata and hte metadata 
+for analysis (samples which survived all filtering.) Additionally, the 
+linkage between the original id used in analysis and hte ID on ena is 
+provided, along with a code book for the variables.
+
+The StagOutput folder provides the annotated results of metagenomic sequencing used for analysis.

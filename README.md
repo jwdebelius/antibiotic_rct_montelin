@@ -70,7 +70,8 @@ Figure 3 requires teh use of q2-empress, which can be installed in an earlier QI
         * `output/figures/Figure_3_ancom_bc_rough.pdf`
         * To accompany this, the notebook generates `final-data/07.ancom-bc/emperor_meta.tsv` which is then processed with the tree through the Empress plugin. Empress screenshots are filled in the boxes on the rough data for the final figure.
 	- Figure S11. Forest plot of rate of recovery of species with a statistically significant difference in ANCOM-BC.
-        -  
+        *  `output/figures/figure_s11_ancom_forest.png`
+        *  `output/figures/figure_s11_ancom_forest.pdf`
 	- Table S6. Untargeted differential abundance of species recovery following antibiotic treatment
         * `output/tables/table_s6_ancom_bc_recovery.tsv` 
 * **L.AMR.ipynb**<br>AMR carraige
